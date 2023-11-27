@@ -1,0 +1,40 @@
+
+
+***** Start Trial #0 *****
+
+Environment #0 Trial #0: SUCCESS
+Environment #1 Trial #0: FAIL
+Environment #2 Trial #0: SUCCESS
+Environment #3 Trial #0: FAIL
+Environment #4 Trial #0: FAIL
+Environment #5 Trial #0: SUCCESS
+
+-----
+SUCCESS: 3
+ADDITIONAL SUCCESS: 3
+FAIL: 3
+TOTAL: 6
+ACCURACY: 0.5
+-----
+
+
+***** End Trial #0 *****
+
+
+
+***** Start Trial #1 *****
+
+Environment #0 Trial #1: SUCCESS
+Environment #1 Trial #1: FAIL
+Environment #2 Trial #1: SUCCESS
+Environment #3 Trial #1: FAIL
+Environment #4 Trial #1: FAIL
+Environment #5 Trial #1: SUCCESS
+
+-----
+SUCCESS: 3
+ADDITIONAL SUCCESS: 0
+FAIL: 3
+TOTAL: 6
+ACCURACY: 0.5
+-----

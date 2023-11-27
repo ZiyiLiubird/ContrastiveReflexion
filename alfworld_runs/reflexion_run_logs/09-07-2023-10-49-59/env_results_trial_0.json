@@ -1,0 +1,64 @@
+[
+    {
+        "name": "env_0",
+        "memory": [
+            "I was unsuccessful in completing the task because I did not find a safe in the environment to put the watch in. My new plan is to first search for the safe by checking all drawers, cabinets, shelves, and other possible locations in the environment. Once I find the safe, I will put the watch in it. The previous plan did not account for the possibility that the safe might not be directly visible in the environment."
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_1",
+        "memory": [
+            "In this environment, my original plan was to find a vase and put it on the safe. However, I was unsuccessful in finding the vase. I need to try a different approach by checking all possible locations for the vase, including shelves, cabinets, and sidetables. I will also try to interact with the safe to see if it responds to any actions."
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_2",
+        "memory": [
+            "Plan: I was unsuccessful in completing the task because I was not able to find a way to heat the cup. I should have looked for a stoveburner or microwave to heat the cup. In the next trial, I will find a stoveburner or microwave, heat the cup, and then put it in the cabinet."
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_3",
+        "memory": [
+            "Plan: I will go to sidetable 1, pick up keychain 1, then go to safe 1, and put the keychain in the safe. After that, I will think about finding the second keychain."
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_4",
+        "memory": [
+            "In this environment, my plan was to find a desklamp and then examine the mug with the desklamp. However, I was not able to pick up the mug from the desk 2. I should have checked if the mug was already on the desk 1 with the desklamp. In the next trial, I will go to desk 1, find the mug, then examine it with the desklamp."
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_5",
+        "memory": [
+            "To solve the task, I need to find and take a soapbar, then clean it with sinkbasin, then put it in cabinet. First, I need to find a cabinet or location where the soapbar can be put. I should have looked for the soapbar in the given locations, such as cabinets, countertop, garbagecan, toilet, toiletpaperhanger, and towelholder. Once I find the soapbar, I should clean it with the sinkbasin and then put it in the cabinet. In the next trial, I will start by looking for the soapbar in the given locations and then proceed with the task."
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_6",
+        "memory": [
+            "Plan: I need to put a cool pan in the countertop. First, I need to find a pan. A pan is more likely to appear in stoveburner (1-4), sinkbasin (1), countertop (1-3), cabinet (1-6), drawer (1-3). I can check one by one, starting with stoveburner 1. Once I find a pan, I need to put it on the countertop."
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_7",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "name": "env_0",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched the environment for the required items (cd and soapbar). After finding the items, I completed the tasks with the appropriate actions such as using the desklamp and cleaning the soapbar.",
+                "failure reason": "In the unsuccessful example, the search for the watch was stuck in a loop, repeatedly attempting to go to cabinet 2 without making progress in finding the watch.",
+                "suggestions": "I should have followed a systematic path for searching for the watch, similar to the successful examples. If stuck in a loop, I should try a different action or check other locations such as cabinets, dresser, drawers, sidetable, and shelves to find the watch."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_1",
+        "memory": [
+            {
+                "successful experience": "In the successful examples, I systematically searched for the task-related objects in the environment, such as CD and soapbar, and performed the required steps to complete the task, like using a desk lamp and placing a clean soapbar on the countertop.",
+                "failure reason": "I failed to complete the task because I was unable to pick up the vase from dresser 1 after finding it. My interaction with the environment failed in the final step.",
+                "suggestions": "I should have used the correct action to pick up the vase, such as 'take vase 1 from dresser 1', then proceeded to the safe and placed the vase on it using actions like 'go to safe 1' and 'put vase 1 on safe 1'."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_2",
+        "memory": [
+            {
+                "successful experience": "In the successful examples, I systematically searched the environment to find the items needed to complete the tasks, such as finding a CD and desklamp or finding a soapbar, cleaning it, and putting it on the countertop.",
+                "failure reason": "In the unsuccessful example, I failed to properly put the hot cup in the cabinet. I tried putting it in cabinet 6 but the action failed, and I didn't try to repeat the action after closing the cabinet or trying other cabinets.",
+                "suggestions": "I should have made sure the cabinet was open before attempting to put the hot cup in it. Additionally, I could also try putting the hot cup in alternative cabinets if the first attempt fails. The new plan of action would be to ensure the cabinet is open, try to put the hot cup in it, and if unsuccessful, move to another cabinet and repeat the process until the task is successfully completed."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_3",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I managed to locate the required items (cd and soapbar) and perform the necessary actions (examine the cd with desklamp and clean the soapbar and put it on the countertop) by checking different locations such as drawers, cabinets, desks, etc.",
+                "failure reason": "I failed to find two keychains in drawers and cabinets, and my interaction with the environment was not successful. I got stuck, tried to check the safe multiple times without going to it, and did not explore other locations.",
+                "suggestions": "I should have also checked other locations such as shelf (1-12), dresser (1), and sidetable (1) after not finding keychains in drawers and cabinets. Additionally, I should have properly executed the 'go to safe' action and attempted to open the safe to check if there are any keychains inside."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_4",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    }
+]

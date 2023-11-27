@@ -1,0 +1,106 @@
+[
+    {
+        "name": "env_0",
+        "memory": [
+            "I was unsuccessful in completing the task because I did not find a safe in the environment to put the watch in. My new plan is to first search for the safe by checking all drawers, cabinets, shelves, and other possible locations in the environment. Once I find the safe, I will put the watch in it. The previous plan did not account for the possibility that the safe might not be directly visible in the environment.",
+            "Plan:\n",
+            "Plan:",
+            "I was unsuccessful in completing the task because I did not find a safe in the environment to put the watch in. My new plan is to check the objects on the dresser 1, since the safe might be hidden or disguised as an ordinary object. Once I find the safe, I will put the watch in it.",
+            "> go to dresser 1",
+            "> search for safe in room",
+            "> search for safe in room",
+            "> search for watch in room"
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_1",
+        "memory": [
+            "In this environment, my original plan was to find a vase and put it on the safe. However, I was unsuccessful in finding the vase. I need to try a different approach by checking all possible locations for the vase, including shelves, cabinets, and sidetables. I will also try to interact with the safe to see if it responds to any actions.",
+            "> check all shelves, cabinets, and sidetables for a vase",
+            "Plan: Since I was unsuccessful in finding the vase in the previous attempts, I will try to interact with the safe to see if it responds to any actions. If the safe does not respond to any actions, I will try to look for any hidden compartments or clues that might help me find the vase.",
+            "> open all cabinets and drawers, check for a vase, and try interacting with the safe to see if it responds to any actions. If the safe does not respond to any actions, look for any hidden compartments or clues that might help find the vase.",
+            "> open all cabinets and drawers, check for a vase, and try interacting with the safe to see if it responds to any actions. If the safe does not respond to any actions, look for any hidden compartments or clues that might help find the vase.",
+            "Plan: I need to find a vase to put on the safe. I will start by checking all the cabinets and drawers for a vase. If I don't find it there, I will try interacting with the safe to see if it responds to any actions. If the safe doesn't respond to any actions, I will look for any hidden compartments or clues that might help me find the vase.",
+            "> check all cabinets and drawers for a vase, then try placing it on the safe",
+            "Plan: I need to find a vase to put on the safe. I will start by checking all the cabinets and drawers for a vase. If I don't find it there, I will try interacting with the safe to see if it responds to any actions. If the safe doesn't respond to any actions, I will look for any hidden compartments or clues that might help me find the vase."
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_2",
+        "memory": [
+            "Plan: I was unsuccessful in completing the task because I was not able to find a way to heat the cup. I should have looked for a stoveburner or microwave to heat the cup. In the next trial, I will find a stoveburner or microwave, heat the cup, and then put it in the cabinet.",
+            "> find stoveburner or microwave",
+            "> find stoveburner or microwave",
+            "Plan: I will first find a stoveburner or microwave to heat the cup, then find a cabinet, and finally put the hot cup in the cabinet.",
+            "Plan: I will first find a stoveburner or microwave to heat the cup, then find a cabinet, and finally put the hot cup in the cabinet.\n",
+            "I will first find a stoveburner or microwave to heat the cup, then find a cabinet, and finally put the hot cup in the cabinet.",
+            "> go to stoveburner 1",
+            "Trial #3: Plan: I will first find a cup to heat, then find a stoveburner or microwave to heat the cup, then find a cabinet, and finally put the hot cup in the cabinet."
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_3",
+        "memory": [
+            "Plan: I will go to sidetable 1, pick up keychain 1, then go to safe 1, and put the keychain in the safe. After that, I will think about finding the second keychain.",
+            "Plan: I will go to sidetable 1, pick up keychain 1, then go to safe 1, and put the keychain in the safe. After that, I will think about finding the second keychain.",
+            "> open safe 1",
+            "I will go to sidetable 1, pick up keychain 1, then go to safe 1, and open it. Next, I will think about finding the second keychain.",
+            "In the past attempts, I was unable to put the keychain into the safe. I need to find the second keychain and put it in the safe as well. I should have checked the safe contents before attempting to put the keychain in. In the next trial, I will go to sidetable 1, pick up keychain 1, then go to safe 1, open it, check its contents, and put keychain 1 in the safe. After that, I will think about finding the second keychain.",
+            "I will go to sidetable 1, pick up keychain 1, then go to safe 1, open it, check its contents, and put keychain 1 in the safe. After that, I will think about finding the second keychain.",
+            "I will go to safe 1, open it, check its contents, and put keychain 1 in the safe. After that, I will think about finding the second keychain.",
+            "Plan:\n"
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_4",
+        "memory": [
+            "In this environment, my plan was to find a desklamp and then examine the mug with the desklamp. However, I was not able to pick up the mug from the desk 2. I should have checked if the mug was already on the desk 1 with the desklamp. In the next trial, I will go to desk 1, find the mug, then examine it with the desklamp.",
+            "> examine mug 1 with desklamp 1 on desk 1",
+            "In this environment, my plan is to find the mug on the desk 1 with the desklamp 1. I will examine the mug with the desklamp to solve the task.",
+            "Plan: > go to desk 1 and then > examine mug 1 with desklamp 1.",
+            "> go to desk 1 and then > examine mug 1",
+            "> go to desk 1 and then > examine mug 1 with desklamp 1",
+            "> go to desk 1 and then > examine mug 1 with desklamp 1",
+            "> go to desk 1 and then > examine mug 1 with desklamp 1"
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_5",
+        "memory": [
+            "To solve the task, I need to find and take a soapbar, then clean it with sinkbasin, then put it in cabinet. First, I need to find a cabinet or location where the soapbar can be put. I should have looked for the soapbar in the given locations, such as cabinets, countertop, garbagecan, toilet, toiletpaperhanger, and towelholder. Once I find the soapbar, I should clean it with the sinkbasin and then put it in the cabinet. In the next trial, I will start by looking for the soapbar in the given locations and then proceed with the task.",
+            "> think: First I need to find a soapbar. I should check the cabinets, countertop, garbagecan, toilet, toiletpaperhanger, and towelholder. I will start with cabinets.",
+            "> take soapbar 1 from countertop 1",
+            "> think: First I need to find a soapbar. I should check the cabinets, countertop, garbagecan, toilet, toiletpaperhanger, and towelholder. I will start with cabinets.",
+            "Plan: I need to find a soapbar, which is more likely to appear in cabinets, countertop, garbagecan, toilet, toiletpaperhanger, and towelholder. I will start with cabinets and take the soapbar from the first available location. Then, I will think about cleaning the soapbar and putting it in the cabinet.",
+            "> open cabinet 2",
+            "> think: I need to find a soapbar, which is more likely to appear in cabinets, countertop, garbagecan, toilet, toiletpaperhanger, and towelholder. I will start with cabinets and check one by one. Once I find a soapbar, I will clean it and put it in the cabinet.",
+            "> find soapbar in cabinet 1, cabinet 2, cabinet 3, countertop 1, garbagecan 1, toilet 1, toiletpaperhanger 1, and towelholder 1"
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_6",
+        "memory": [
+            "Plan: I need to put a cool pan in the countertop. First, I need to find a pan. A pan is more likely to appear in stoveburner (1-4), sinkbasin (1), countertop (1-3), cabinet (1-6), drawer (1-3). I can check one by one, starting with stoveburner 1. Once I find a pan, I need to put it on the countertop."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_7",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    }
+]

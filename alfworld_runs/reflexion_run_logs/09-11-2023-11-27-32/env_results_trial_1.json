@@ -1,0 +1,84 @@
+[
+    {
+        "name": "env_0",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_1",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_2",
+        "memory": [
+            {
+                "successful experience": "In both successful experiences, I found the required items (a vase, a watch, and a cup), then followed a specific task order (taking the item, using a tool or device, and putting it in the desired location).",
+                "failure reason": "In the unsuccessful example, I successfully heated the cup in the microwave but then failed to put it in the correct cabinet. I attempted to put the cup in multiple cabinets with no success.",
+                "suggestions": "I should have tried opening each cabinet before attempting to put the hot cup in. Next time, I will make sure to open the cabinets first, then try putting the heated cup inside."
+            },
+            {
+                "successful experience": "In both successful examples, I found the required items (a book, a bowl, and a cup), followed a specific order of actions (taking the item, using a tool or device, and putting it in the desired location), and adapted my search strategy based on the environment observation.",
+                "failure reason": "In the unsuccessful example, I tried putting the heated cup into multiple cabinets without success, possibly because I didn't open all the cabinets before attempting to put the cup in.",
+                "suggestions": "Next time, I will ensure that all cabinets are open before placing the heated cup inside. Additionally, I will consider checking other locations such as drawers and countertops if I cannot find the appropriate cabinet for the heated cup."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_3",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically checked all the possible locations for the required items, found and took them, then placed them in the desired location.",
+                "failure reason": "I was unable to find the second keychain in the environment during my search and therefore could not complete the task by placing two keychains in the safe.",
+                "suggestions": "I should re-check all the locations that I have visited already to see if I might have missed the second keychain, and inspect other locations more carefully. I might also try interacting with some objects to see if the keychain is hidden inside or behind something."
+            },
+            {
+                "successful experience": "In the successful examples, I systematically checked all possible locations for the required items, found and took them, then placed them in the desired location.",
+                "failure reason": "During my search for the second keychain, I was unable to find it in the environment and therefore could not complete the task by placing two keychains in the safe.",
+                "suggestions": "I should re-check all the locations that I have visited already to see if I might have missed the second keychain, and inspect other locations more carefully. I might also try interacting with some objects to see if the keychain is hidden inside or behind something."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_4",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_5",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_6",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_7",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_8",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_9",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    }
+]

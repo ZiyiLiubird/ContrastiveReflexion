@@ -1,0 +1,1562 @@
+[
+    {
+        "name": "env_0",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the task and the objects involved. Then, I systematically searched for the required objects in the environment, taking them when found. Finally, I used the objects to complete the task as instructed.",
+                "failure reason": "In the unsuccessful example, I found the apple and the sidetable but failed to put the apple on the sidetable. Instead, I put the apple on the garbagecan.",
+                "suggestions": "I should have double-checked the destination before putting the apple. To avoid this mistake, I will always verify the target object before performing an action, and make sure it matches the intended destination."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_1",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the task and the objects involved. Then, I systematically searched for the required objects in the environment, taking them when found. Finally, I used the objects to complete the task as instructed.",
+                "failure reason": "In the unsuccessful example, I found the apple and the sidetable but failed to put the apple on the sidetable. Instead, I put the apple on the garbagecan.",
+                "suggestions": "To successfully complete the task in the failure example, I should have gone to the sidetable after finding the apple and then put the apple on the sidetable. I should also double-check my actions to ensure they align with the task requirements."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_2",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects and performed the required actions to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and the sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I failed to find the correct object (a hot apple) to put in the fridge. I mistakenly heated an egg instead of an apple, and then put the heated egg on the diningtable.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first identified the correct object (an apple) and its location. Then, I should have taken the apple, heated it with the microwave, and finally put it in the fridge. I should have been more careful in identifying the correct object and its location before performing the actions."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_3",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for and interacted with the objects to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and cleaned it with sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I made a mistake in my strategy. After finding the first cellphone, I did not continue searching for the second cellphone and instead went back to coffeetable 1, which I had already checked. This led to an inefficient search and ultimately, failure to complete the task.",
+                "suggestions": "To successfully complete the task in the failure example, I should have continued searching for the second cellphone after finding the first one. Instead of going back to coffeetable 1, I should have checked the remaining locations, such as diningtable 1, sidetable 1-2, drawer 1-4, sofa 1, dresser 1, and garbagecan 1. This would have increased the chances of finding the second cellphone and completing the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_4",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required objects in the environment, starting with the most likely locations. Once I found the objects, I used them as instructed to complete the tasks.",
+                "failure reason": "In the unsuccessful example, I failed to find the bowl and desklamp in the correct environment. I also did not properly follow the task of examining the pen with the desklamp, as I ended up looking at a bowl under the desklamp instead.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found the pen and desklamp in the correct environment, then used the desklamp to examine the pen. I should also pay closer attention to the task description and ensure I am following it accurately."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_5",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary items and their locations. Then, I systematically searched for the items, picked them up, and performed the required actions to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found an apple in the garbagecan 1, which was not a clean location. I should have checked other locations for a clean apple before attempting to clean the one from the garbagecan.",
+                "suggestions": "I should have checked other locations, such as the fridge 1, diningtables 1-3, and sidetable 1, for a clean apple before attempting to clean the one from the garbagecan. If I still couldn't find a clean apple, I could have tried to clean the one from the garbagecan more thoroughly or looked for alternative ways to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_6",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_7",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found a mug in cabinet 6 and cooled it in fridge 1. However, when I tried to put the mug on shelf 1, I encountered an error. The issue was that I didn't check if the shelf was empty before attempting to put the mug on it.",
+                "suggestions": "To successfully complete the task in the failure example, I should have checked if shelf 1 was empty before attempting to put the mug on it. If it was not empty, I should have removed the existing objects and then placed the mug on the shelf. Additionally, I should have checked if the stoveburner was available for use before attempting to cool the pan on it."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_8",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required objects in the environment, starting with the most likely locations. Once I found the objects, I used them as instructed to complete the tasks.",
+                "failure reason": "In the unsuccessful example, I failed to find the bowl and desklamp in the correct environment. I also did not properly follow the task of examining the pen with the desklamp, as I ended up looking at a bowl under the desklamp instead.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found the pen and desklamp in the correct environment, then used the desklamp to examine the pen. I should also pay closer attention to the task description and ensure I am following it accurately."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_9",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required objects in the environment, starting with the most likely locations. Once I found the objects, I used them as instructed to complete the tasks.",
+                "failure reason": "In the unsuccessful example, I failed to find the bowl and desklamp in the correct environment. I also did not properly follow the task of examining the pen with the desklamp, as I ended up looking at a bowl under the desklamp instead.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found the pen and desklamp in the correct environment, then used the desklamp to examine the pen. I should also pay closer attention to the task description and ensure I am following it accurately."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_10",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required objects in the environment and used them to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and cleaned it with sinkbasin 1 before putting it on countertop 1.",
+                "failure reason": "In the unsuccessful example, I made a mistake in my plan of action. I found the first cellphone on coffeetable 1 and put it on sofa 1. However, when I found the second cellphone on diningtable 1, I mistakenly put it on sofa 1 as well, instead of realizing that the task was already completed.",
+                "suggestions": "To successfully complete the task in the failure example, I should have checked the status of the task after putting the first cellphone on the sofa. If the task was not yet completed, I should have continued searching for the second cellphone and put it on the sofa as well. Additionally, I should have paid closer attention to the task description to ensure I was following it correctly."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_11",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean and put it on the diningtable.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtables, sidetables, and countertops. If I still could not find a clean lettuce, I could have tried to clean a dirty lettuce using the sinkbasin before putting it on the diningtable."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_12",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean and put it on the diningtable.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtables, sinkbasin, stoveburners, and cabinets. If I still could not find a clean lettuce, I could have tried to clean a dirty lettuce using the sinkbasin before putting it on the diningtable."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_13",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found an apple in the garbagecan 1, which was not a clean location. I should have checked other locations for a clean apple before attempting to clean the one from the garbagecan.",
+                "suggestions": "I should have checked other locations, such as the fridge 1, diningtables 1-3, and sidetable 1, for a clean apple before attempting to clean the one from the garbagecan. If I still couldn't find a clean apple, I could have tried to clean the apple from the garbagecan more thoroughly or looked for alternative ways to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_14",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically visited each location to find and interact with the required objects. Finally, I completed the tasks by using the objects as instructed.",
+                "failure reason": "In the unsuccessful example, I made a mistake in my strategy by not considering all possible locations for the second cellphone. I focused on the countertop 1 and did not explore other locations, which led to the failure.",
+                "suggestions": "To successfully complete the task in the failure example, I should have explored all possible locations for the second cellphone, such as sidetables, drawers, and the sofa. After finding the second cellphone, I should have put it in/on the sofa 1 as instructed."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_15",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found a mug in cabinet 6 and cooled it in fridge 1. However, when I tried to put the mug on shelf 1, I encountered an error. The issue was that I didn't check if the shelf was empty before attempting to put the mug on it.",
+                "suggestions": "To successfully complete the task in the failure example, I should have checked if shelf 1 was empty before attempting to put the mug on it. If it was not empty, I should have removed the existing objects and then placed the mug on the shelf. Additionally, I should have checked if the stoveburner was available for use before attempting to cool the pan on it."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_16",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required objects in the environment, starting with the most likely locations. Once I found the objects, I used them as instructed to complete the tasks.",
+                "failure reason": "In the unsuccessful example, I failed to find the bowl and desklamp in the correct environment. I also did not properly follow the task of examining the pen with the desklamp, as I ended up looking at a bowl under the desklamp instead.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found the pen and desklamp in the correct environment, then used the desklamp to examine the pen. I should also pay closer attention to the task description and ensure I am following it accurately."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_17",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required objects and used them to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found an apple and heated it in the microwave, but I failed to put it in the fridge. Instead, I put a different apple in the fridge, which was not the one I heated.",
+                "suggestions": "To successfully complete the task in the failure example, I should have taken the heated apple from the microwave and put it in the fridge. I should also double-check the object I am using to ensure it is the correct one before proceeding with the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_18",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the task and the items needed to complete it. Then, I systematically searched for the items in the environment, taking them when found. Finally, I used the items as required to complete the task.",
+                "failure reason": "In the unsuccessful example, I found the apple and the sidetable but failed to put the apple on the sidetable. Instead, I put the apple on the garbagecan.",
+                "suggestions": "I should have double-checked the target location before putting the apple down. In the future, I will always verify the target location before performing the action to avoid making similar mistakes."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_19",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the task and the objects involved. Then, I systematically searched for the required objects in the environment, taking them when found. Finally, I used the objects to complete the task as instructed.",
+                "failure reason": "In the unsuccessful example, I found the apple and the sidetable but failed to put the apple on the sidetable. Instead, I put the apple on the garbagecan.",
+                "suggestions": "I should have double-checked the destination before putting the apple. I will make sure to verify the target object before performing the action to avoid similar mistakes in the future."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_20",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required objects and used them to complete the task. In Example 1, I found a CD on desk 2 and a desklamp on desk 1, and in Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found an apple and heated it in the microwave, but I failed to put it in the fridge. Instead, I mistakenly put a hot apple on the dining table.",
+                "suggestions": "To successfully complete the task in the failure example, I should have taken the apple from the dining table, heated it in the microwave, and then put it in the fridge. I should also be more careful when selecting the correct destination for the object."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_21",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary items and their locations. Then, I systematically searched for and interacted with the items to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and cleaned it with sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found the apple in the garbagecan 1, which was not a clean source. I should have checked other locations for a clean apple before attempting to clean and place it on the sidetable 1.",
+                "suggestions": "I should have checked other locations, such as the fridge 1 or diningtables 1-3, for a clean apple before attempting to clean and place it on the sidetable 1. If I find an apple in an unclean location, I should continue searching for a clean apple before proceeding with the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_22",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the task and the required objects. Then, I systematically searched for the objects in the environment, taking them when found. Finally, I used the objects to complete the task as instructed.",
+                "failure reason": "In the unsuccessful example, I found the apple and the sidetable but failed to put the apple on the sidetable. Instead, I put the apple on the garbagecan.",
+                "suggestions": "I should have double-checked the destination before putting the apple. I will make sure to verify the target location before performing the action to avoid similar mistakes in the future."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_23",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required objects and used them as instructed. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I failed to find the correct object (a hot apple) to put in the fridge. I mistakenly heated an egg instead of an apple.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found an apple instead of an egg. Then, I should have heated the apple with the microwave and put it in the fridge. I will make sure to carefully identify the correct object before attempting to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_24",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required objects in the environment and used them to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and cleaned it with sinkbasin 1 before putting it on countertop 1.",
+                "failure reason": "In the unsuccessful example, I made a mistake in my plan of action. I found the first cellphone on coffeetable 1 and put it on sofa 1. However, when I found the second cellphone on diningtable 1, I mistakenly put it on sofa 1 as well, instead of realizing that the task was already completed.",
+                "suggestions": "To successfully complete the task in the failure example, I should have checked the status of the task after putting the first cellphone on the sofa. If the task was not yet completed, I should have continued searching for the second cellphone and put it on the sofa as well. Additionally, I should have paid closer attention to the task description to ensure I was following it correctly."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_25",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_26",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary items and their locations. Then, I systematically searched for and interacted with the items to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and cleaned it with sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found the apple in the garbagecan 1, which was not a clean location. I should have checked other locations for a clean apple before attempting to clean the one from the garbagecan.",
+                "suggestions": "I should have checked other locations for a clean apple before attempting to clean the one from the garbagecan. I could have looked in the fridge 1, diningtables 1-3, or cabinets 1-13. Additionally, I should have considered the cleanliness of the items before attempting to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_27",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found a mug in cabinet 6 and cooled it in fridge 1. However, when I tried to put the mug on shelf 1, I encountered an error. The issue was that I didn't check if the shelf was empty before attempting to put the mug on it.",
+                "suggestions": "To successfully complete the task in the failure example, I should have checked if shelf 1 was empty before attempting to put the mug on it. If it was not empty, I should have removed the existing objects and then placed the mug on the shelf. Additionally, I should have checked if the stoveburner was available for use before attempting to put the pan on it."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_28",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for and interacted with the objects to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I failed to find the correct object (a hot apple) to put in the fridge. I mistakenly heated an egg instead of an apple, and then put the heated egg on the diningtable.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first identified the correct object (an apple) and its location. Then, I should have taken the apple, heated it with the microwave, and finally put it in the fridge. I should have been more careful in identifying the correct object and its location before attempting to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_29",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean and put it on the diningtable.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtables, sinkbasin, stoveburners, and cabinets. If I still could not find a clean lettuce, I could have tried to clean a dirty lettuce using the sinkbasin before putting it on the diningtable."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_30",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for and interacted with the objects to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I failed to find the correct object (a hot apple) to put in the fridge. I mistakenly heated an egg instead of an apple, and then put the heated egg on the diningtable.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first identified the correct object (an apple) and its location. Then, I should have taken the apple, heated it with the microwave, and finally put it in the fridge. I should have been more careful in identifying the correct object to heat and put in the fridge."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_31",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically visited each location to find and interact with the required objects. Finally, I completed the tasks by using the objects as instructed.",
+                "failure reason": "In the unsuccessful example, I made a mistake in my strategy by not considering all possible locations for the second cellphone. I focused on the countertop 1 and did not explore other locations, which led to the failure.",
+                "suggestions": "To successfully complete the task in the failure example, I should have explored all possible locations for the second cellphone, such as sidetables, drawers, and the sofa. After finding the second cellphone, I should have put it in/on the sofa 1 as instructed."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_32",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required objects in the environment, starting with the most likely locations. Once I found the objects, I used them as instructed to complete the tasks.",
+                "failure reason": "In the unsuccessful example, I failed to find the bowl and desklamp in the correct environment. I also did not properly follow the task of examining the pen with the desklamp, as I ended up looking at a bowl under the desklamp instead.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found the pen and desklamp in the correct environment, then used the desklamp to examine the pen. I should also pay closer attention to the task description and ensure I am following it accurately."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_33",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary items and their locations. Then, I systematically searched for and interacted with the items to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and cleaned it with sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found the apple in the garbagecan 1, which was not a clean location. I should have checked other locations for a clean apple before attempting to clean the one from the garbagecan.",
+                "suggestions": "I should have checked other locations for a clean apple before attempting to clean the one from the garbagecan. I could have looked in the fridge 1, diningtables 1-3, or cabinets 1-13. Additionally, I should have considered the cleanliness of the items before attempting to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_34",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found a mug in cabinet 6 and cooled it in fridge 1. However, when I tried to put the mug on shelf 1, I encountered an error. The issue was that I didn't check if the shelf was empty before attempting to put the mug on it.",
+                "suggestions": "To successfully complete the task in the failure example, I should have checked if shelf 1 was empty before attempting to put the mug on it. If it was not empty, I should have removed the existing objects and then placed the mug on the shelf. Additionally, I should have checked if the stoveburner was available for use before attempting to cool the pan on it."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_35",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found a mug in cabinet 6 and cooled it in fridge 1. However, when I tried to put the mug on shelf 1, I encountered an error. The issue was that I didn't check if the shelf was empty before attempting to put the mug on it.",
+                "suggestions": "To successfully complete the task in the failure example, I should have checked if shelf 1 was empty before attempting to put the mug on it. If it was not empty, I should have removed the existing objects and then placed the mug on the shelf. Additionally, I should have checked if the stoveburner was available for use before attempting to cool the pan on it."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_36",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required items (cd and desklamp in Example 1, soapbar and sinkbasin in Example 2) and used them to complete the tasks. I started by identifying the most likely locations for the items and checked them one by one until I found the required items.",
+                "failure reason": "In the unsuccessful example, I failed to complete the task because I did not find the required items (bowl and desklamp) in the correct locations. I also did not follow a clear strategy to find and use the items.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first identified the most likely locations for the bowl and desklamp, then systematically checked those locations one by one. Once I found the items, I should have used the desklamp to examine the pen and put the clean soapbar on the countertop. I will also avoid getting stuck in loops and ensure I execute different actions if I find myself repeating the same action."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_37",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found a mug in cabinet 6 and cooled it in fridge 1. However, when I tried to put the mug on shelf 1, I encountered an error. The issue was that I didn't check if the shelf was empty before attempting to put the mug on it.",
+                "suggestions": "To successfully complete the task in the failure example, I should have checked if shelf 1 was empty before attempting to put the mug on it. If it was not empty, I should have removed the existing objects and then placed the mug on the shelf. Additionally, I should have checked if the stoveburner was available for use before attempting to put the pan on it."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_38",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the task and the required objects. Then, I systematically searched for the objects in the environment, taking them when found. Finally, I used the objects to complete the task as instructed.",
+                "failure reason": "In the unsuccessful example, I found the apple and the sidetable but failed to put the apple on the sidetable. Instead, I put the apple on the garbagecan.",
+                "suggestions": "I should have double-checked the destination before putting the apple. I will make sure to verify the target object before performing the action to avoid similar mistakes in the future."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_39",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean and put it on the diningtable.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtables, sidetables, and countertops. If I still could not find a clean lettuce, I could have tried to clean a dirty lettuce using the sinkbasin before putting it on the diningtable."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_40",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean and put it on the diningtable.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtables, sinkbasin, stoveburners, and cabinets, before attempting to clean and put it on the diningtable. If I still could not find a clean lettuce, I should have tried to find a way to clean the available lettuce or look for alternative solutions to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_41",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary items and their locations. Then, I systematically searched for and interacted with the items to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and cleaned it with sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found the apple in the garbagecan 1, which was not a clean source. I should have checked other locations for a clean apple before attempting to clean and place it on the sidetable 1.",
+                "suggestions": "I should have checked other locations, such as the fridge 1 or diningtables 1-3, for a clean apple before attempting to clean and place it on the sidetable 1. If I find an apple in an unclean location, I should search for another apple in a cleaner location before proceeding with the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_42",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required objects in the environment, starting with the most likely locations. Once I found the objects, I used them as instructed to complete the tasks.",
+                "failure reason": "In the unsuccessful example, I failed to find the bowl and desklamp in the correct environment. I also did not properly follow the task of examining the pen with the desklamp, as I ended up looking at a bowl under the desklamp instead.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found the pen and desklamp in the correct environment, then used the desklamp to examine the pen. I should also pay closer attention to the task description and ensure I am following it accurately."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_43",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean and put it on the diningtable.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtables, sinkbasin, stoveburners, and cabinets, before attempting to clean and put it on the diningtable. If I still could not find a clean lettuce, I should have tried to find a way to clean the lettuce I found in the garbagecan."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_44",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found a mug in cabinet 6 and cooled it in fridge 1. However, when I tried to put the mug on shelf 1, I failed to notice that the shelf was already occupied by other objects. I should have checked the shelf's contents before attempting to put the mug on it.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first checked the contents of shelf 1 before attempting to put the mug on it. If the shelf was occupied, I could have chosen another shelf or found a way to clear space on shelf 1 before placing the mug."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_45",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the task and the objects involved. Then, I systematically searched for the required objects in the environment, taking them when found. Finally, I used the objects to complete the task as instructed.",
+                "failure reason": "In the unsuccessful example, I found the apple and the sidetable but failed to put the apple on the sidetable. Instead, I put the apple on the garbagecan.",
+                "suggestions": "I should have double-checked the destination before putting the apple. To avoid this mistake, I will always verify the target object before performing an action."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_46",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required objects in the environment, starting with the most likely locations. Once I found the objects, I used them as instructed to complete the tasks.",
+                "failure reason": "In the unsuccessful example, I failed to find the bowl and desklamp in the correct environment. I also did not properly follow the task of examining the pen with the desklamp, as I ended up looking at a bowl under the desklamp instead.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found the pen and desklamp in the correct environment, then used the desklamp to examine the pen. I should also pay closer attention to the task description and ensure I am following it accurately."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_47",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean it.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtable, sinkbasin, stoveburner, and cabinets, before attempting to clean it. If I still could not find a clean lettuce, I should have tried to find a way to clean the lettuce I found in the garbagecan."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_48",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically visited each location to find and interact with the required objects. Finally, I completed the tasks by using the objects as instructed.",
+                "failure reason": "In the unsuccessful example, I made a mistake in my strategy by not considering all possible locations for the second cellphone. I focused on the countertop 1 and did not explore other locations, which led to the failure.",
+                "suggestions": "To successfully complete the task in the failure example, I should have explored all possible locations for the second cellphone, such as sidetables, drawers, sofa, dresser, garbagecan, and armchairs. After finding the second cellphone, I should have put it in/on the sofa 1 as instructed."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_49",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the task and the objects involved. Then, I systematically searched for the required objects in the environment, taking them when found. Finally, I used the objects to complete the task as instructed.",
+                "failure reason": "In the unsuccessful example, I found the apple and the sidetable but failed to put the apple on the sidetable. Instead, I put the apple on the garbagecan.",
+                "suggestions": "I should have double-checked the destination before putting the apple. I will make sure to verify the target object before performing the action to avoid similar mistakes in the future."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_50",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects and performed the required actions to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and the countertop in the room.",
+                "failure reason": "In the unsuccessful example, I found the apple in the garbagecan 1, which was not a clean location. I should have checked other locations for a clean apple before attempting to clean the one from the garbagecan.",
+                "suggestions": "I should have checked other locations, such as the fridge 1, diningtables 1-3, and sidetable 1, for a clean apple before attempting to clean the one from the garbagecan. If I still couldn't find a clean apple, I could have tried to clean the one from the garbagecan more thoroughly or looked for alternative ways to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_51",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the task and the required objects. Then, I systematically searched for the objects in the environment, taking them when found. Finally, I used the objects to complete the task as instructed.",
+                "failure reason": "In the unsuccessful example, I found the apple and the sidetable but failed to put the apple on the sidetable. Instead, I put the apple on the garbagecan.",
+                "suggestions": "I should have double-checked the destination before putting the apple. I will make sure to verify the target location before performing the action to avoid similar mistakes in the future."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_52",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required objects in the environment, starting with the most likely locations. Once I found the objects, I used them as instructed to complete the tasks.",
+                "failure reason": "In the unsuccessful example, I failed to find the bowl and desklamp in the correct environment. I also did not properly follow the task of examining the pen with the desklamp, as I ended up looking at a bowl under the desklamp instead.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found the pen and desklamp in the correct environment, then used the desklamp to examine the pen. I should also pay closer attention to the task description and ensure that I am following it accurately."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_53",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the objects needed to complete the task and their possible locations. Then, I systematically searched for the objects in the identified locations. Once I found the required objects, I used them to complete the task as instructed.",
+                "failure reason": "In the unsuccessful example, I failed to find the bowl and desklamp in the correct locations. I also did not follow the correct sequence of actions to complete the task.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found the bowl in shelf 2 and taken it. Then, I should have found the desklamp in sidetable 2 and used it to examine the pen with the desklamp."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_54",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for and interacted with the objects to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and the sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I failed to find the correct object (a hot apple) to put in the fridge. I mistakenly heated an egg instead of an apple, and then put the heated egg on the diningtable.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first identified the correct object (an apple) and its location. Then, I should have taken the apple, heated it with the microwave, and finally put it in the fridge. I should have been more careful in identifying the correct object and its location before attempting to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_55",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found a mug in cabinet 6 and cooled it in fridge 1. However, when I tried to put the mug on shelf 1, I encountered an error. The issue was that I didn't check if the shelf was empty before attempting to put the mug on it.",
+                "suggestions": "To successfully complete the task in the failure example, I should have checked if shelf 1 was empty before attempting to put the mug on it. If it was not empty, I should have removed the existing objects and then placed the mug on the shelf. Additionally, I should have checked if the stoveburner was available for use before attempting to cool the pan on it."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_56",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found a mug in cabinet 6 and cooled it in fridge 1. However, when I tried to put the mug on shelf 1, I encountered an error. The issue was that I didn't check if the shelf was empty before attempting to put the mug on it.",
+                "suggestions": "To successfully complete the task in the failure example, I should have checked if shelf 1 was empty before attempting to put the mug on it. If it was not empty, I should have removed the existing objects and then placed the mug on the shelf. Additionally, I should have checked if the stoveburner was available before attempting to put the pan on it."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_57",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically visited each location to find and interact with the required objects. Finally, I completed the tasks by using the objects as instructed.",
+                "failure reason": "In the unsuccessful example, I made a mistake in my strategy by not considering all possible locations for the second cellphone. I focused on the countertop 1 and did not explore other locations, which led to the failure.",
+                "suggestions": "To successfully complete the task in the failure example, I should have explored all possible locations for the second cellphone, such as sidetables, drawers, and other furniture. After finding the second cellphone, I should have put it in/on the sofa 1 as instructed."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_58",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required objects and used them to complete the task. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found an apple and heated it in the microwave, but I failed to put it in the fridge. Instead, I put a different apple in the fridge, which was not the one I heated.",
+                "suggestions": "To successfully complete the task in the failure example, I should have taken the heated apple from the microwave and put it in the fridge. I should also double-check the object I am using to ensure it is the correct one before proceeding with the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_59",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for and interacted with the objects to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and the sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I failed to find the correct object (a hot apple) to put in the fridge. I mistakenly heated an egg instead of an apple, and then put the heated egg on the diningtable.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first identified the correct object (an apple) and its location. Then, I should have taken the apple, heated it with the microwave, and finally put it in the fridge. I should have been more careful in identifying the correct object and its location before attempting to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_60",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_61",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found a mug in cabinet 6 and cooled it in fridge 1. However, when I tried to put the mug on shelf 1, I failed to realize that the shelf was already occupied by other objects. I should have checked the shelf's contents before attempting to put the mug on it.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first checked the contents of shelf 1 before attempting to put the mug on it. If the shelf was occupied, I could have chosen another shelf or found a way to clear space on shelf 1 before placing the mug."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_62",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean and put it on the diningtable.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtables, sidetables, countertops, and cabinets. If I still could not find a clean lettuce, I could have tried to clean a dirty lettuce using the sinkbasin before putting it on the diningtable."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_63",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required objects and used them as needed to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1, and in Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found an apple and heated it in the microwave, but I failed to put the hot apple in the fridge. Instead, I mistakenly put the apple in the fridge after completing the first task.",
+                "suggestions": "To successfully complete the tasks in the failure example, I should have taken the hot apple from the microwave and put it in the fridge after heating it. I should also be more careful when executing actions to avoid making mistakes and ensure that I am putting the correct object in the correct location."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_64",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean and put it on the diningtable.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtables, sinkbasin, stoveburners, and cabinets. If I still could not find a clean lettuce, I could have tried to clean a dirty lettuce using the sinkbasin before putting it on the diningtable."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_65",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_66",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required items in the environment and used the items as instructed. I started by identifying the possible locations of the items and then checked them one by one. Once I found the items, I used them as required to complete the task.",
+                "failure reason": "In the unsuccessful example, I made a mistake in my strategy. After finding the first cellphone, I mistakenly checked coffeetable 1 again instead of moving on to the next location. This led to a loop and prevented me from finding the second cellphone.",
+                "suggestions": "To successfully complete the task in the failure example, I should have continued checking the remaining locations for the second cellphone after finding the first one. Specifically, I should have checked diningtable 1, sidetable 1, drawer 1-4, sofa 1, dresser 1, and garbagecan 1 in sequence. This would have allowed me to find the second cellphone and complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_67",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the task and the required objects. Then, I systematically searched for the objects in the environment, taking them when found. Finally, I used the objects to complete the task as instructed.",
+                "failure reason": "In the unsuccessful example, I found the apple and the sidetable but failed to put the apple on the sidetable. Instead, I put the apple on the garbagecan.",
+                "suggestions": "I should have double-checked the destination before putting the apple. I will make sure to verify the target location before performing the action to avoid similar mistakes in the future."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_68",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically visited each location to find and interact with the required objects. I also made sure to pick up the objects and use them as needed to complete the tasks.",
+                "failure reason": "In the unsuccessful example, I made a mistake in my strategy by not considering all possible locations for the second cellphone. I focused on the countertop 1 and did not explore other locations, which led to the failure of the task.",
+                "suggestions": "To successfully complete the task in the failure example, I should have explored all possible locations for the second cellphone, such as sidetables, drawers, and other furniture. I should also have considered revisiting previously checked locations if no cellphone was found. By expanding my search and being more thorough, I can increase the chances of successfully completing the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_69",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the task and the items needed to complete it. Then, I systematically searched for the items in the environment, taking note of their locations. Once I found the necessary items, I executed the required actions to complete the task.",
+                "failure reason": "In the unsuccessful example, I found the apple and the sidetable but failed to put the apple on the sidetable. Instead, I put the apple on the garbagecan.",
+                "suggestions": "To successfully complete the task in the failure example, I should have gone to the sidetable after finding the apple and then put the apple on the sidetable. I should also double-check my actions to ensure they align with the task requirements."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_70",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and the sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found the mug in cabinet 6 and cooled it in fridge 1. However, I made a mistake by trying to put the cooled mug on shelf 1 instead of the required task of cooling a pan and putting it in stoveburner.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found a pan, then cooled it in the fridge, and finally put it in the stoveburner. I should have paid closer attention to the task description and executed the correct actions accordingly."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_71",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for and interacted with the objects to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I failed to find the correct object (a hot apple) to put in the fridge. I mistakenly heated an egg instead of an apple, and then put the heated egg on the diningtable.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first identified the correct object (an apple) and its location. Then, I should have taken the apple, heated it with the microwave, and finally put it in the fridge. I should have been more careful in identifying the correct object to heat and put in the fridge."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_72",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and the countertop in the room.",
+                "failure reason": "In the unsuccessful example, I found the mug in cabinet 6 and cooled it in the fridge. However, when I tried to put the mug on shelf 1, I encountered an error. The issue was that I didn't check if the shelf was empty before attempting to put the mug on it.",
+                "suggestions": "To successfully complete the task in the failure example, I should have checked if shelf 1 was empty before attempting to put the mug on it. If it was not empty, I should have removed the existing objects and then placed the mug on the shelf. Additionally, I should have checked if the stoveburner was available for use before attempting to put the pan on it."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_73",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean and put it on the diningtable.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtables, sinkbasin, stoveburners, and cabinets. If I still could not find a clean lettuce, I could have tried to clean a dirty lettuce using the sinkbasin before putting it on the diningtable."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_74",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean and put it on the diningtable.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtables, sinkbasin, stoveburners, and cabinets, before attempting to clean and put it on the diningtable. If I still could not find a clean lettuce, I should have tried to find a way to clean the lettuce I found in the garbagecan."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_75",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for and interacted with the objects to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and the sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I failed to find the correct object (a hot apple) to put in the fridge. I mistakenly heated an egg instead of an apple, and then put the heated egg on the diningtable.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first identified the correct object (an apple) and its location. Then, I should have taken the apple, heated it with the microwave, and finally put it in the fridge. I should have been more careful in identifying the correct object and its location before attempting to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_76",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for and interacted with the objects to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and the sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I failed to find the correct object (a hot apple) to put in the fridge. I mistakenly heated an egg instead of an apple, and then put the heated egg on the diningtable.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first identified the correct object (an apple) and its location. Then, I should have taken the apple, heated it with the microwave, and finally put it in the fridge. I should have been more careful in identifying the correct object and its location before attempting to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_77",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and the sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found the mug in cabinet 6 and cooled it in fridge 1. However, I made a mistake by trying to put the cooled mug on shelf 1 instead of the required task of cooling a pan and putting it in stoveburner.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found a pan, cooled it in the fridge, and then put it in the stoveburner. Instead of trying to put the mug on the shelf, I should have focused on finding a pan and performing the required actions to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_78",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the task and the objects involved. Then, I systematically searched for the required objects in the environment, taking them when found. Finally, I used the objects to complete the task as instructed.",
+                "failure reason": "In the unsuccessful example, I found the apple and the sidetable but failed to put the apple on the sidetable. Instead, I put the apple on the garbagecan.",
+                "suggestions": "I should have double-checked the destination before putting the apple. I will make sure to verify the target object before performing the action to avoid similar mistakes in the future."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_79",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required objects and used them to complete the task. In Example 1, I found a CD on desk 2 and a desklamp on desk 1, and in Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found an apple and heated it in the microwave, but I failed to put it in the fridge. Instead, I put a different apple in the fridge, which was not the one I heated.",
+                "suggestions": "To successfully complete the task in the failure example, I should have taken the heated apple from the microwave and put it in the fridge. I should also double-check the object I am using to ensure it is the correct one before proceeding with the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_80",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the task and the objects involved. Then, I systematically searched for the required objects in the environment, taking them when found. Finally, I used the objects to complete the task as instructed.",
+                "failure reason": "In the unsuccessful example, I found the apple and the sidetable but failed to put the apple on the sidetable. Instead, I put the apple on the garbagecan.",
+                "suggestions": "I should have double-checked the destination before putting the apple. To avoid this mistake, I will always verify the target object before performing an action, and make sure it matches the intended destination."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_81",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required objects in the environment and used them to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and cleaned it with sinkbasin 1 before putting it on countertop 1.",
+                "failure reason": "In the unsuccessful example, I made a mistake in my plan of action. I found the first cellphone on coffeetable 1 and put it on sofa 1. However, when I found the second cellphone on diningtable 1, I mistakenly put it on sofa 1 as well, instead of realizing that the task was already completed.",
+                "suggestions": "To successfully complete the task in the failure example, I should have checked the status of the sofa after putting the first cellphone on it. If the task was already completed, I should have stopped searching for the second cellphone. Additionally, I should have paid closer attention to the task description to ensure I was following it correctly."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_82",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean and put it on the diningtable.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtables, sidetables, and countertops. If I still could not find a clean lettuce, I could have tried to clean a dirty lettuce using the sinkbasin before putting it on the diningtable."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_83",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required objects and used them as needed to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1, and in Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found an apple and heated it in the microwave, but I failed to put it in the fridge. Instead, I mistakenly put a different egg on the dining table.",
+                "suggestions": "To successfully complete the task in the failure example, I should have taken the heated apple from the microwave and put it in the fridge. I should also double-check the object I am putting in the fridge to ensure it is the correct one."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_84",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found a mug in cabinet 6 and cooled it in fridge 1. However, when I tried to put the mug on shelf 1, I encountered an error. The issue was that I didn't check if the shelf was empty before attempting to put the mug on it.",
+                "suggestions": "To successfully complete the task in the failure example, I should have checked if shelf 1 was empty before attempting to put the mug on it. If it was not empty, I should have removed the existing objects and then placed the mug on the shelf. Additionally, I should have checked if the stoveburner was available for use before attempting to cool the pan on it."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_85",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically visited each location to find and interact with the required objects. I also made sure to pick up the objects and use them as needed to complete the tasks.",
+                "failure reason": "In the unsuccessful example, I made a mistake in my strategy by not considering all possible locations for the second cellphone. I focused on the countertop 1 and did not explore other locations, which led to the failure of the task.",
+                "suggestions": "To successfully complete the task in the failure example, I should have explored all possible locations for the second cellphone, such as sidetables, drawers, and the sofa. After finding the second cellphone, I should have picked it up and put it in/on the sofa 1 to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_86",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically visited each location to find and interact with the required objects. Finally, I completed the tasks by using the objects as instructed.",
+                "failure reason": "In the unsuccessful example, I made a mistake in my strategy by not considering all possible locations for the second cellphone. I focused on the countertop 1 and did not explore other locations, which led to the failure.",
+                "suggestions": "To successfully complete the task in the failure example, I should have explored all possible locations for the second cellphone, such as sidetables, drawers, and the sofa. After finding the second cellphone, I should have put it in/on the sofa 1 as instructed."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_87",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean and put it on the diningtable.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtables, sinkbasin, stoveburners, and cabinets. If I still could not find a clean lettuce, I could have tried to clean a dirty lettuce using the sinkbasin before putting it on the diningtable."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_88",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_89",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required objects and used them to complete the task. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I failed to find the correct object (a hot apple) to put in the fridge. I mistakenly heated an egg instead of an apple, and then put the heated egg on the diningtable.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found an apple instead of an egg. Then, I should have heated the apple with the microwave and put it in the fridge. I will make sure to identify the correct object before attempting to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_90",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for and interacted with the objects to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and the sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I failed to find the correct object (a hot apple) to put in the fridge. I mistakenly heated an egg instead of an apple, and then put the heated egg on the diningtable.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first identified the correct object (an apple) and its location. Then, I should have taken the apple, heated it with the microwave, and finally put it in the fridge. I should have been more careful in identifying the correct object to heat and put in the fridge."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_91",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for and interacted with the objects to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and the sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I failed to find the correct object (a hot apple) to put in the fridge. I mistakenly heated an egg instead of an apple, and then put the heated egg on the diningtable.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first identified the correct object (an apple) and its location. Then, I should have taken the apple, heated it with the microwave, and finally put it in the fridge. I should have been more careful in identifying the correct object and its location before attempting to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_92",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_93",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the task and the objects involved. Then, I systematically searched for the required objects in the environment, taking them when found. Finally, I used the objects to complete the task as instructed.",
+                "failure reason": "In the unsuccessful example, I found the apple and the sidetable but failed to put the apple on the sidetable. Instead, I put the apple on the garbagecan.",
+                "suggestions": "I should have double-checked the destination before putting the apple. To avoid this mistake, I will always verify the target object before performing an action."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_94",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean and put it on the diningtable.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtables, sinkbasin, stoveburners, and cabinets. If I still could not find a clean lettuce, I could have tried to clean a dirty lettuce using the sinkbasin before putting it on the diningtable."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_95",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and the sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found the mug in cabinet 6 and cooled it in fridge 1. However, I made a mistake by trying to put the cooled mug on shelf 1 instead of the required task of cooling a pan and putting it in stoveburner. This led to the failure of the task.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found a pan, such as the one on stoveburner 3, and then cooled it in the fridge. After cooling the pan, I should have put it in the stoveburner to complete the task. I will make sure to carefully read and understand the task requirements before taking any actions."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_96",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required objects in the environment and used them to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and cleaned it with sinkbasin 1 before putting it on countertop 1.",
+                "failure reason": "In the unsuccessful example, I made a mistake in my plan of action. I found the first cellphone on coffeetable 1 and put it on sofa 1. However, when I found the second cellphone on diningtable 1, I mistakenly put it on sofa 1 as well, instead of realizing that the task was already completed.",
+                "suggestions": "To successfully complete the task in the failure example, I should have checked the status of the task after putting the first cellphone on the sofa. If the task was not yet completed, I could have continued searching for the second cellphone. Additionally, I should have paid closer attention to the task description to ensure I was following it correctly."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_97",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the task and the items needed to complete it. Then, I systematically searched for the items in the environment, taking note of their locations. Once I found the necessary items, I executed the required actions to complete the task.",
+                "failure reason": "In the unsuccessful example, I found the apple and the sidetable but failed to put the apple on the sidetable. Instead, I put the apple on the garbagecan.",
+                "suggestions": "To successfully complete the task in the failure example, I should have gone to the sidetable after finding the apple and then put the apple on the sidetable. I should also double-check my actions to ensure they align with the task requirements."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_98",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean it.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtable, sinkbasin, stoveburner, and cabinets, before attempting to clean it. If I still could not find a clean lettuce, I should have tried to find a way to clean the available lettuce or look for an alternative solution to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_99",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and cleaned it with sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found the apple in the garbagecan 1, which was not a clean location. I should have checked other locations for a clean apple before attempting to clean the one from the garbagecan.",
+                "suggestions": "I should have checked other locations for a clean apple before attempting to clean the one from the garbagecan. I could have looked in the fridge 1, diningtables 1-3, or cabinets 1-13. Additionally, I should have considered the cleanliness of the apple before attempting to clean it, as the task required a clean apple to be placed on the sidetable."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_100",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the task and the objects needed to complete it. Then, I systematically searched for the objects in the environment, taking them when found. Finally, I used the objects to complete the task as instructed.",
+                "failure reason": "In the unsuccessful example, I found the apple and the sidetable but failed to put the apple on the sidetable. Instead, I put the apple on the garbagecan.",
+                "suggestions": "To successfully complete the task in the failure example, I should have gone to the sidetable after finding the apple and then put the apple on the sidetable. I should also double-check my actions to ensure they align with the task instructions."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_101",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the task and the objects involved. Then, I systematically searched for the required objects in the environment, taking them when found. Finally, I used the objects to complete the task as instructed.",
+                "failure reason": "In the unsuccessful example, I found the apple and the sidetable but failed to put the apple on the sidetable. Instead, I put the apple on the garbagecan.",
+                "suggestions": "I should have double-checked the destination before putting the apple. To avoid this mistake, I will always verify the target object before performing an action, and make sure it matches the intended destination."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_102",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required items in the environment, starting with the most likely locations. Once I found the items, I used them as instructed to complete the tasks.",
+                "failure reason": "In the unsuccessful example, I failed to find the bowl and desklamp in the correct environment. I also did not properly follow the task of examining the pen with the desklamp, as I ended up looking at a bowl under the desklamp instead.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found the pen and desklamp in the correct environment, then used the desklamp to examine the pen. I should also pay closer attention to the task description and ensure I am following it accurately."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_103",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean and put it on the diningtable.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtables, sidetables, and cabinets, before attempting to clean and put it on the diningtable. If I still could not find a clean lettuce, I should have tried to find a way to clean the lettuce I found in the garbagecan."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_104",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_105",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean and put it on the diningtable.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtables, sinkbasin, stoveburners, and cabinets. If I still could not find a clean lettuce, I could have tried to clean a dirty lettuce using the sinkbasin before putting it on the diningtable."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_106",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the task and the objects involved. Then, I systematically searched for the required objects in the environment, taking them when found. Finally, I used the objects to complete the task as instructed.",
+                "failure reason": "In the unsuccessful example, I found the apple and the sidetable but failed to put the apple on the sidetable. Instead, I put the apple on the garbagecan.",
+                "suggestions": "I should have double-checked the destination before putting the apple. To avoid this mistake, I will always verify the target object before performing an action, and make sure it matches the intended destination."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_107",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required objects in the environment, starting with the most likely locations. Once I found the objects, I used them as instructed to complete the tasks.",
+                "failure reason": "In the unsuccessful example, I failed to find the bowl and desklamp in the correct environment. I also did not properly follow the task of examining the pen with the desklamp, as I ended up looking at a bowl under the desklamp instead.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found the pen and desklamp in the correct environment, then used the desklamp to examine the pen. I should also pay closer attention to the task description and ensure I am following it accurately."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_108",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the task and the objects involved. Then, I systematically searched for the required objects in the environment, taking them when found. Finally, I used the objects to complete the task as instructed.",
+                "failure reason": "In the unsuccessful example, I found the apple and the sidetable but failed to put the apple on the sidetable. Instead, I put the apple on the garbagecan.",
+                "suggestions": "I should have double-checked the destination before putting the apple. I will make sure to verify the target object before performing the action to avoid similar mistakes in the future."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_109",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required objects in the environment, starting with the most likely locations. Once I found the objects, I used them as instructed to complete the tasks.",
+                "failure reason": "In the unsuccessful example, I failed to find the bowl and desklamp in the correct environment. I also did not properly follow the task of examining the pen with the desklamp, as I ended up looking at a bowl under the desklamp instead.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found the pen and desklamp in the correct environment, then used the desklamp to examine the pen. I should also pay closer attention to the task description and ensure I am following it accurately."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_110",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary items and their locations. Then, I systematically searched for and interacted with the items to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and cleaned it with sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found the apple in the garbagecan 1, which was not a clean source. I should have checked other locations for a clean apple before attempting to clean and place it on the sidetable 1.",
+                "suggestions": "I should have checked other locations, such as the fridge 1 or diningtables, for a clean apple before attempting to clean and place it on the sidetable 1. Additionally, I should have considered the cleanliness of the items before attempting to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_111",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean and put it on the diningtable.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtables, sidetables, and cabinets, before attempting to clean and put it on the diningtable. If I still could not find a clean lettuce, I should have tried to find a way to clean the lettuce I found in the garbagecan."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_112",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required objects in the environment, starting with the most likely locations. Once I found the objects, I used them as instructed to complete the tasks.",
+                "failure reason": "In the unsuccessful example, I failed to find the bowl and desklamp in the correct environment. I also did not properly follow the task of examining the pen with the desklamp, as I ended up looking at a bowl under the desklamp instead.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found the pen and desklamp in the correct environment, then used the desklamp to examine the pen. I should also pay closer attention to the task description and ensure that I am following it accurately."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_113",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for and interacted with the objects to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I failed to find the correct object (a hot apple) to put in the fridge. I mistakenly heated an egg instead of an apple, and then put the heated egg on the diningtable.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first identified the correct object (an apple) and its location. Then, I should have taken the apple, heated it with the microwave, and finally put it in the fridge. I should have been more careful in identifying the correct object to heat and put in the fridge."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_114",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the task and the items needed to complete it. Then, I systematically searched for the items in the environment, taking note of their locations. Once I found the necessary items, I executed the required actions to complete the task.",
+                "failure reason": "In the unsuccessful example, I found the apple and the sidetable but failed to put the apple on the sidetable. Instead, I put the apple on the garbagecan.",
+                "suggestions": "To successfully complete the task in the failure example, I should have gone to the sidetable after finding the apple and then put the apple on the sidetable. I should also double-check my actions to ensure they align with the task requirements."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_115",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean and put it on the diningtable.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtables, sinkbasin, stoveburners, and cabinets. If I still could not find a clean lettuce, I could have tried to clean a dirty lettuce using the sinkbasin before putting it on the diningtable."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_116",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and the sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found the mug in cabinet 6 and cooled it in fridge 1. However, I made a mistake by trying to put the cooled mug on shelf 1 instead of the required task of cooling a pan and putting it in stoveburner. This led to the failure of the task.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found a pan, cooled it in the fridge, and then put it in the stoveburner. Instead of trying to put the mug on the shelf, I should have focused on finding a pan and performing the required actions to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_117",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required objects in the environment, starting with the most likely locations. Once I found the objects, I used them as instructed to complete the tasks.",
+                "failure reason": "In the unsuccessful example, I failed to find the bowl and desklamp in the correct environment. I also did not properly follow the task of examining the pen with the desklamp, as I ended up looking at a bowl under the desklamp instead.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found the pen and desklamp in the correct environment, then used the desklamp to examine the pen. I should also pay closer attention to the task description and ensure I am following it accurately."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_118",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks.",
+                "failure reason": "In the unsuccessful example, I found the mug and the fridge but failed to cool the mug before attempting to put it on the shelf. This led to the task not being completed.",
+                "suggestions": "I should have taken the mug from the countertop, cooled it using the fridge, and then put it on the shelf. I will ensure to follow the correct sequence of actions when completing tasks in the future."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_119",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required objects in the environment, starting with the most likely locations. Once I found the objects, I used them as instructed to complete the tasks.",
+                "failure reason": "In the unsuccessful example, I failed to find the bowl and desklamp in the correct environment. I also did not properly follow the task of examining the pen with the desklamp, as I ended up looking at a bowl under the desklamp instead.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found the pen and desklamp in the correct environment, then used the desklamp to examine the pen. I should also pay closer attention to the task description and ensure I am following it accurately."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_120",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_121",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required objects and used them to complete the task. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I failed to find the correct object (a hot apple) to put in the fridge. I mistakenly heated an egg instead of an apple, and then put the heated egg on the diningtable.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found an apple instead of an egg. Then, I should have heated the apple with the microwave and put it in the fridge. I will make sure to identify the correct object before attempting to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_122",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically visited each location to find and interact with the required objects. Finally, I completed the tasks by using the objects as instructed.",
+                "failure reason": "In the unsuccessful example, I made a mistake in my strategy by not considering all possible locations for the second cellphone. I focused on the coffeetable and did not explore other locations, which led to the failure.",
+                "suggestions": "To successfully complete the task in the failure example, I should have explored all possible locations for the second cellphone, such as sidetables, dresser, garbagecan, and sofa. After finding the second cellphone, I should have put it in/on the sofa 1 as instructed."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_123",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for and interacted with the objects to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and the sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I failed to find the correct object (a hot apple) to put in the fridge. I mistakenly heated an egg instead of an apple, and then put the heated egg on the diningtable.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first identified the correct object (an apple) and its location. Then, I should have taken the apple, heated it with the microwave, and finally put it in the fridge. I should have been more careful in identifying the correct object to heat and put in the fridge."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_124",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean and put it on the diningtable.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtables, sidetables, countertops, and cabinets. If I still could not find a clean lettuce, I could have tried to clean a dirty lettuce using the sinkbasin before putting it on the diningtable."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_125",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required objects and used them to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I failed to find the correct object (a hot apple) to put in the fridge. I mistakenly heated an egg instead of an apple, and then put the heated egg on the diningtable.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found an apple instead of an egg. Then, I should have heated the apple with the microwave and put it in the fridge. I will make sure to identify the correct object before attempting to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_126",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required objects in the environment, starting with the most likely locations. Once I found the objects, I used them as instructed to complete the tasks.",
+                "failure reason": "In the unsuccessful example, I failed to find the bowl and desklamp in the correct environment. I also did not properly follow the task of examining the pen with the desklamp, as I ended up looking at a bowl under the desklamp instead.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first found the pen and desklamp in the correct environment, then used the desklamp to examine the pen. I should also pay closer attention to the task description and ensure I am following it accurately."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_127",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I systematically searched for the required objects in the environment and used them to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and cleaned it with sinkbasin 1 before putting it on countertop 1.",
+                "failure reason": "In the unsuccessful example, I made a mistake in my strategy by not considering the possibility of multiple cellphones in the environment. I only searched for one cellphone and put it on the sofa, but the task required me to put two cellphones on the sofa.",
+                "suggestions": "To successfully complete the task in the failure example, I should have searched for a second cellphone after putting the first one on the sofa. I could have checked the remaining objects in the environment, such as the diningtable, sidetables, drawers, sofa, dresser, and garbagecan, to find the second cellphone and put it on the sofa as well."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_128",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found a mug in cabinet 6 and cooled it in fridge 1. However, when I tried to put the mug on shelf 1, I encountered an error. The issue was that I didn't check if the shelf was empty before attempting to put the mug on it.",
+                "suggestions": "To successfully complete the task in the failure example, I should have checked if shelf 1 was empty before attempting to put the mug on it. If it was not empty, I should have removed the existing objects and then placed the mug on the shelf. Additionally, I should have checked if the stoveburner was available for use before attempting to put the pan on it."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_129",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically visited each location to find and interact with the required objects. Finally, I completed the tasks by using the objects as instructed.",
+                "failure reason": "In the unsuccessful example, I failed to find the second cellphone and put it on the sofa. I got stuck in a loop of checking the same locations without finding the second cellphone.",
+                "suggestions": "I should have expanded my search to other locations, such as the dresser, garbage can, and side tables, to find the second cellphone. Once I find the second cellphone, I can put it on the sofa to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_130",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically visited each location to find and interact with the required objects. Finally, I completed the tasks by using the objects as instructed.",
+                "failure reason": "In the unsuccessful example, I failed to find the second cellphone and put it on the sofa. I got stuck in a loop of checking the same locations without finding the second cellphone.",
+                "suggestions": "I should have expanded my search to other locations, such as the dresser, garbage can, or side tables, to find the second cellphone. Once I find the second cellphone, I can put it on the sofa to complete the task."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_131",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for the objects, picked them up, and performed the required actions to complete the tasks. In Example 1, I found a CD on desk 2 and a desklamp on desk 1. In Example 2, I found a soapbar in cabinet 4 and a sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I found a mug in cabinet 6 and cooled it in fridge 1. However, when I tried to put the mug on shelf 1, I encountered an error. The issue was that I didn't check if the shelf was empty before attempting to put the mug on it.",
+                "suggestions": "To successfully complete the task in the failure example, I should have checked if shelf 1 was empty before attempting to put the mug on it. If it was not empty, I should have removed the existing objects and then placed the mug on the shelf. Additionally, I should have checked if the stoveburner was available for use before attempting to put the pan on it."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_132",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I systematically searched for and interacted with the objects to complete the tasks. In Example 1, I found the CD on desk 2 and the desklamp on desk 1. In Example 2, I found the soapbar in cabinet 4 and the sinkbasin in sinkbasin 1.",
+                "failure reason": "In the unsuccessful example, I failed to find the correct object (a hot apple) to put in the fridge. I mistakenly heated an egg instead of an apple, and then put the heated egg on the diningtable.",
+                "suggestions": "To successfully complete the task in the failure example, I should have first identified the correct object (an apple) and its location. Then, I should have taken the apple, heated it with the microwave, and finally put it in the fridge. I should have been more careful in selecting the correct object to heat and place in the fridge."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_133",
+        "memory": [
+            {
+                "successful experience": "In both successful examples, I first identified the necessary objects and their locations. Then, I took the required actions to interact with the objects and complete the tasks. In Example 1, I found the CD and desklamp, and in Example 2, I found the soapbar and cleaned it with the sinkbasin.",
+                "failure reason": "In the unsuccessful example, I found the apple and cleaned it, but I did not find a clean lettuce in the environment. I should have checked all possible locations for the lettuce before attempting to clean and put it on the diningtable.",
+                "suggestions": "I should have checked all possible locations for the lettuce, such as the fridge, diningtables, sidetables, and countertops. If I still could not find a clean lettuce, I could have tried to clean a dirty lettuce using the sinkbasin before putting it on the diningtable."
+            }
+        ],
+        "is_success": false,
+        "skip": false
+    }
+]

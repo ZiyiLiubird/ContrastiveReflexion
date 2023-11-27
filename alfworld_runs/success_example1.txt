@@ -1,0 +1,41 @@
+You are in the middle of a room. Looking quickly around you, you see a bed 1, a desk 2, a desk 1, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a laundryhamper 1, a safe 1, a shelf 6, a shelf 5, a shelf 4, a shelf 3, a shelf 2, and a shelf 1.
+Your task is to: examine the cd with the desklamp.
+Contents in following three quotes are the history interaction steps between you and the environment.
+"""
+> think: To solve the task, I need to find and take a cd, then find and use a desklamp. First I need to find a cd. A cd is more likely to appear in drawer (1-6), desk (1-2), shelf (1-6), bed (1), garbagecan (1). I can check one by one, starting with drawer 1.
+OK.
+> go to drawer 1
+The drawer 1 is closed.
+> open drawer 1
+You open the drawer 1. The drawer 1 is open. In it, you see nothing.
+> go to drawer 2
+On the drawer 2, you see a cellphone 2, and a creditcard 1.
+> go to drawer 3
+Nothing happens.
+> open drawer 3
+Nothing happens.
+> go to drawer 4
+The drawer 4 is closed.
+> open drawer 4
+You open the drawer 4. The drawer 4 is open. In it, you see a pen 1.
+> go to drawer 5
+On the drawer 5, you see nothing.
+> go to drawer 6
+The drawer 6 is closed.
+> open drawer 6
+You open the drawer 6. The drawer 6 is open. In it, you see a creditcard 2.
+> go to desk 1
+On the desk 1, you see a desklamp 1, and a pencil 1.
+> go to desk 2
+On the desk 2, you see a bowl 1, a cd 3, and a mug 1.
+> think: Now I find a cd (3) on desk 2. Next, I need to take it.
+OK.
+> take cd 3 from desk 2
+You pick up the cd 3 from the desk 2.
+> think: Now I have the cd. Next, I need to find and use a desklamp. I remember seeing a desklamp on desk 1. I can go to desk 1 and use the desklamp.
+OK.
+> go to desk 1
+On the desk 1, you see a desklamp 1, and a pencil 1.
+> use desklamp 1
+You turn on the desklamp 1.
+"""
